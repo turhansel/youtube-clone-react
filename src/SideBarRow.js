@@ -4,8 +4,8 @@ import "./SideBarRow.css";
 function SideBarRow({ Icon, title }) {
   return (
     <div className="sideBarRow">
-      <Icon />
-      <h2>{title}</h2>
+      <Icon className="sidebarrow-icon" />
+      <h2 className="sidebarrow-title">{title}</h2>
     </div>
   );
 }

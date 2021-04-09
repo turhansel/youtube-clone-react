@@ -12,7 +12,7 @@ function Header() {
     <div className="header">
       <div className="header-left">
         <MenuIcon />
-        <img src="./logo.svg" alt="logo" className="header-logo" />
+        <img src="./logo.png" alt="logo" className="header-logo" />
       </div>
 
       <div className="header-input">
