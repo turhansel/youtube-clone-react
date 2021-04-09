@@ -1,4 +1,5 @@
 import React from "react";
+import "./Header.css";
 import MenuIcon from "@material-ui/icons/Menu";
 import SearchIcon from "@material-ui/icons/Search";
 import VideoCallIcon from "@material-ui/icons/VideoCall";
@@ -9,15 +10,22 @@ import Avatar from "@material-ui/core/Avatar";
 function Header() {
   return (
     <div className="header">
-      <h1>I am a header</h1>
-      <MenuIcon />
-      <img src="./logo.svg" alt="logo" className="header-logo" />
-      <input type="text" />
-      <SearchIcon />
-      <VideoCallIcon />
-      <AppsIcon />
-      <NotificationsIcon />
-      <Avatar alt="Turhan Sel" src="/profile.jpg" />
+      <div className="header-left">
+        <MenuIcon />
+        <img src="./logo.svg" alt="logo" className="header-logo" />
+      </div>
+
+      <div className="header-input">
+        <input placeholder="Search" type="text" />
+        <SearchIcon className="header-search-icon" />
+      </div>
+
+      <div className="header-icons">
+        <VideoCallIcon className="header-icon" />
+        <AppsIcon className="header-icon" />
+        <NotificationsIcon className="header-icon" />
+        <Avatar alt="Turhan Sel" src="/profile.jpg" />
+      </div>
     </div>
   );
 }
