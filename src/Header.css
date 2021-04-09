@@ -10,7 +10,7 @@
 }
 
 .header-logo {
-  height: 25px;
+  height: 23px;
   object-fit: contain;
   margin-left: 25px;
 }
@@ -20,7 +20,13 @@
   align-items: center;
   width: 40%;
   border: 1px solid black;
+  position: relative;
 }
+
+/* .header-mic-icon {
+  position: absolute;
+  right: -40px;
+} */
 
 .header-search-icon {
   width: 50px !important;
