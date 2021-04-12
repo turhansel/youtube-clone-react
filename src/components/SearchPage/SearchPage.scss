@@ -12,3 +12,63 @@
     }
   }
 }
+
+//Channel Row*
+
+.channel-row {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  .avatar {
+    height: 120px !important;
+    width: 120px !important;
+    margin: 10px 60px;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+
+    h4 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    p {
+      color: #606060;
+      font-size: small !important;
+    }
+  }
+}
+
+//Video Row*
+
+.video-row {
+  display: flex;
+  margin-bottom: 30px;
+  max-width: 700px;
+  img {
+    object-fit: contain;
+    width: 246px;
+    height: 138px;
+  }
+  .text {
+    margin-left: 14px;
+    .headline {
+      font-size: 12px;
+      color: #606060;
+      .subs {
+        background-color: lightgray;
+        padding: 2px;
+      }
+      .subsNumber {
+        font-weight: bolder;
+        color: rgb(84, 157, 211);
+      }
+    }
+    .descriptipn {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #606060;
+    }
+  }
+}
