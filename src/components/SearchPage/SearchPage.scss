@@ -13,6 +13,10 @@
   }
 }
 
+.MuiDivider-root {
+  margin: 10px 0;
+}
+
 //Channel Row*
 
 .channel-row {
@@ -44,7 +48,7 @@
 
 .video-row {
   display: flex;
-  margin-bottom: 30px;
+  margin-top: 30px;
   max-width: 700px;
   img {
     object-fit: contain;
